@@ -13,6 +13,10 @@ body {
 
 /* Everything at the very top of the page and menu items */
 header {
+    /* added flex properties so that the nav doesnt
+       drop to the bottom */
+    flex-wrap: wrap;
+    display: flex;
     padding: 20px;
     /* adding space around text elements*/
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -39,6 +43,7 @@ header h1 .seo {
 
 /* Styling for the list items and their positioning in the header */
 header nav {
+    
     padding-top: 15px;
     margin-right: 20px;
     float: right;
