@@ -5,14 +5,14 @@
     padding: 0;
     margin: 0;
 }
- /* bottom half (body) bg color set to white*/
+ /* bottom half (body) bg color set to white */
 body {
     background-color: #ffffff;
 }
 
 
 /* Everything at the very top of the page and menu items */
-.header {
+header {
     padding: 20px;
     /* adding space around text elements*/
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -26,19 +26,19 @@ body {
 /* keeping all elements in the header to be positioned inline 
     and set the font for Horiseon to 48px 
     while applyings styling rules from .header */
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
 /* making the "seo" part a seperate color 
     but applying styling rules from .header h1 outside of its color*/
-.header h1 .seo {
+header h1 .seo {
     color: hsl(90, 8%, 85%);
 }
 
-/* Styling for the list items and their positioning in the header*/
-.header div {
+/* Styling for the list items and their positioning in the header */
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -47,13 +47,13 @@ body {
 }
 
 /* This isn't doing anything noticeable */
-.header div ul {
+header nav ul {
     list-style-type: none;
 }
 
 /* List items stay in alignment with each other 
     and to left 20px */
-.header div ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -69,7 +69,8 @@ p {
     font-size: 16px;
 }
 
-/* The biggest image styling properties */
+/* The biggest image styling properties 
+    */
 .hero {
     height: 800px;
     width: 100%;
@@ -77,6 +78,27 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+    
+}
+
+/* adding fig caption elements */
+
+figure {
+    color: rgb(255, 255, 255);
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 350px;
+    margin: auto;
+}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 5px;
+    text-align: center;
 }
 
 /* The  body image is applying 
@@ -94,7 +116,7 @@ and margin space from the text 25px*/
 }
 
 /* The styling properties for the blue boxes on the left */
-.content {
+.main-info {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
@@ -152,7 +174,7 @@ and margin space from the text 25px*/
 
 .benefit-lead img {
     display: block;
-    margin: 10px auto;
+    margin: auto;
     max-width: 150px;
 }
 
