@@ -39,7 +39,7 @@ header h1 .seo {
     color: hsl(90, 8%, 85%);
 }
 
-/* Styling for the list items and their positioning in the header */
+/* Styling for the navigation items and their positioning in the header also changed li to nav*/
 header nav {
     
     padding-top: 15px;
@@ -72,7 +72,7 @@ p {
     font-size: 16px;
 }
 
-/* The biggest image styling properties 
+/* The biggest image and its styling properties 
     */
 .hero {
     height: 800px;
@@ -84,7 +84,7 @@ p {
     
 }
 
-/* adding fig caption elements */
+/* adding figure caption elements for accesibilty */
 
 figure {
     color: rgb(255, 255, 255);
@@ -118,7 +118,8 @@ and margin space from the text 25px*/
     margin-left: 25px;
 }
 
-/* The styling properties for the blue boxes on the left */
+/* The styling properties for the blue boxes on the left 
+also changed to main-info instead of body*/
 .main-info {
     width: 75%;
     display: inline-block;
